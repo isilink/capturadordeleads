@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tela de Cadastro - Delphi Style</title>
+  <link rel="stylesheet" href="https://unpkg.com/98.css">
+  <style>
+    body {
+      padding: 20px;
+      background: teal;
+    }
+    .window {
+      width: 400px;
+    }
+    label {
+      display: inline-block;
+      width: 100px;
+      margin-right: 10px;
+    }
+    input {
+      width: 200px;
+    }
+    .field {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="window" style="margin: auto">
+    <div class="title-bar">
+      <div class="title-bar-text">Cadastro de Usuário</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="window-body">
+      <form>
+        <div class="field">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" />
+        </div>
+        <div class="field">
+          <label for="email">Email:</label>
+          <input type="email" id="email" />
+        </div>
+        <div class="field">
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" />
+        </div>
+        <div class="field">
+          <label for="nascimento">Nascimento:</label>
+          <input type="date" id="nascimento" />
+        </div>
+
+        <div style="text-align: right; margin-top: 20px;">
+          <button class="button">Salvar</button>
+          <button class="button">Cancelar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

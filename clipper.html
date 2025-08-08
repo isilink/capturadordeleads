@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro estilo Clipper</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/terminal.css@0.7.2/dist/terminal.min.css">
+  <style>
+    body {
+      font-family: monospace;
+      background: black;
+      color: white;
+      padding: 20px;
+    }
+
+    .box {
+      border: 1px solid #0ff;
+      padding: 1rem;
+      margin: auto;
+      width: 500px;
+    }
+
+    .box h1 {
+      border-bottom: 1px solid #0ff;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    label {
+      display: inline-block;
+      width: 12ch;
+    }
+
+    input {
+      background: black;
+      color: lime;
+      border: 1px solid #0ff;
+      width: 20ch;
+      margin-bottom: 0.5rem;
+    }
+
+    .actions {
+      margin-top: 1rem;
+      text-align: right;
+    }
+
+    button {
+      background: #111;
+      color: #0ff;
+      border: 1px solid #0ff;
+      padding: 0.3rem 1rem;
+      margin-left: 0.5rem;
+    }
+
+    button:hover {
+      background: #0ff;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>Cadastro de Usuário</h1>
+
+    <form>
+      <div><label for="nome">Nome:</label> <input id="nome" type="text"></div>
+      <div><label for="email">Email:</label> <input id="email" type="email"></div>
+      <div><label for="senha">Senha:</label> <input id="senha" type="password"></div>
+      <div><label for="nasc">Nascimento:</label> <input id="nasc" type="date"></div>
+
+      <div class="actions">
+        <button type="submit">[ OK ]</button>
+        <button type="reset">[ Cancel ]</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

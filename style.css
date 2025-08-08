@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: black;
+  color: lime;
+  font-family: 'Perfect DOS VGA 437', monospace;
+  font-size: 16px;
+  line-height: 1.2;
+  overflow: hidden;
+}
+
+pre {
+  margin: 0;
+  padding: 1em;
+}
+
+#inputs input {
+  position: absolute;
+  background: black;
+  color: lime;
+  border: none;
+  border-bottom: 1px solid lime;
+  font-family: inherit;
+  font-size: 16px;
+  width: 30ch;
+  outline: none;
+}
+
+#inputs input:focus {
+  background: darkgreen;
+}

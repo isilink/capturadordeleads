@@ -1,0 +1,28 @@
+body {
+  background: black;
+  color: lime;
+  font-family: monospace;
+  padding: 20px;
+}
+
+.box {
+  border: 1px solid #0ff;
+  padding: 1rem;
+  width: 800px;
+  margin: auto;
+  background-color: #000;
+}
+
+h1 {
+  border-bottom: 1px solid #0ff;
+  margin-bottom: 1rem;
+}
+
+.terminal {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #0ff;
+  padding: 10px;
+  margin-bottom: 1rem;
+  white-space: pre-wrap;
+}
